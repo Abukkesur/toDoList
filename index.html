@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <style>
+        body{
+            text-align: center;
+            display: block;
+            background-color: darkgray;
+            
+            
+        }
+        ul{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration:wavy;  
+            list-style:none;
+               
+        }
+        li{
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+
+        form{
+            margin-top: 10vh;
+            
+        }
+        input.form{
+            height: 5vh;
+            background-color:darkgray;
+            border-color: lightgray;
+            border-width: 10px;
+            color: black;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            transform: translateX(40%);
+            text-decoration: none;
+        }
+
+        input.search{
+            /* position: relative; */
+            left: 0;
+            height: 5vh;
+            background-color:black;
+            border-color: whitesmoke;
+            border-width: 10px;
+            color: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        button.btnForm{
+            border-radius: 30%;
+            font-size: 20px;
+            font-weight: 900;
+            border-color: black;
+            border-width: 3px;
+            color: black;
+            background-color:darkgray;
+            margin-left: 5vw;
+            transform: translateX(75%);
+            height: 40px;
+            
+        }
+        button:hover{
+            background-color: gray;
+            cursor: pointer;
+        }
+        button{
+            border-radius: 30%;
+            font-size: 10px;
+            font-weight: 500;
+            border-color: black;
+            border-width: 2px;
+            color: black;
+            background-color:darkgray;
+            margin-left: 5vw;
+            transform: translateX(75%);
+            height: 20px;
+            
+        }
+
+        div{
+            margin-top: 10vh;
+            font-size: 30px;
+            font-weight: 600;
+            color: whitesmoke;
+        
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" class="form">
+        <button class="btnForm">add task</button>
+    </form>
+    <h1>Number of tasks: <span></span></h1>
+    <ul></ul>
+    <div>
+    <input type="text" class="search">
+    <p>Search task</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
